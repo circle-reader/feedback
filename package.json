@@ -2,7 +2,7 @@
   "name": "feedback",
   "version": "1.0.0",
   "license": "MIT",
-  "priority": 480,
+  "priority": 280,
   "author": "Ranhe <wenguang.fe@gmail.com> (https://circlereader.com/)",
   "scripts": {
     "dev": "circle dev",
@@ -19,7 +19,7 @@
     "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "circle-ihk": "^1.0.0-3"
+    "circle-ihk": "file:///Users/ranhe/circle/tools/ihk"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",

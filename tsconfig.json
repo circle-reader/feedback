@@ -3,6 +3,7 @@
     "rootDir": "src",
     "outDir": "dist",
     "target": "ES5",
+    "module": "ESNext",
     "sourceMap": false,
     "jsx": "react-jsx",
     "lib": ["ES2015", "DOM"],

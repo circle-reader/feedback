@@ -8,7 +8,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.61.0
   '@typescript-eslint/parser': ^5.61.0
   antd: ^5.7.0
-  circle-ihk: ^1.0.0-3
+  circle-ihk: file:///Users/ranhe/circle/tools/ihk
   classnames: ^2.3.2
   css-loader: ^6.8.1
   css-minimizer-webpack-plugin: ^5.0.1
@@ -45,7 +45,7 @@ specifiers:
 
 dependencies:
   antd: 5.7.2_biqbaboplfbrettd7655fr4n2y
-  circle-ihk: 1.0.0-3
+  circle-ihk: file:../../tools/ihk
   classnames: 2.3.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1492,13 +1492,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /circle-ihk/1.0.0-3:
-    resolution: {integrity: sha512-8+6aD6Yt7ybWp0vAsk6khT7AJcl5WRa2RgrzWeVTd6hQgDODrIdE0EMBGu7VH6JFGqQDIG0MN9HyAU0u+YCXng==}
-    dependencies:
-      crypto-js: 4.1.1
-      react: 18.2.0
-    dev: false
-
   /classnames/2.3.2:
     resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
     dev: false
@@ -1701,10 +1694,6 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
     dev: true
-
-  /crypto-js/4.1.1:
-    resolution: {integrity: sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==}
-    dev: false
 
   /css-declaration-sorter/6.4.1_postcss@8.4.26:
     resolution: {integrity: sha512-rtdthzxKuyq6IzqX6jEcIzQF/YqccluefyCYheovBOLhFT/drQA9zj/UbRAa9J7C0o6EG6u3E6g+vKkay7/k3g==}
@@ -6045,3 +6034,11 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  file:../../tools/ihk:
+    resolution: {directory: ../../tools/ihk, type: directory}
+    name: circle-ihk
+    version: 1.0.0-11
+    dependencies:
+      react: 18.2.0
+    dev: false
