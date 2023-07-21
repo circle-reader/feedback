@@ -1,0 +1,25 @@
+{
+  "keys": [
+    {
+      "id": "feedback",
+      "defaultValue": "e d",
+      "label": "__title__"
+    }
+  ],
+  "menu": [
+    {
+      "id": "feedback",
+      "checked": true,
+      "label": "__title__"
+    }
+  ],
+  "toolbar": [
+    {
+      "group": 4,
+      "id": "feedback",
+      "checked": true,
+      "icon": "FeedbackOutline",
+      "label": "__title__"
+    }
+  ]
+}
